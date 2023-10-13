@@ -1,0 +1,32 @@
+
+body {
+    background-image: url('img/kungfupandabackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(182, 195, 221);
+}
+   
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid gold;
+    background-color: gold;
+    padding: 5px 25px;
+    border-radius: 5px;
+    font-variant: small-caps;
+    font-size: larger;
+    color: rgb(255, 0, 0);
+}
+
+a:hover {
+    transition: 1s;
+}
+
+a:hover {
+    border-color: blue;
+    background-color: blue;
+    color: white;
+}
